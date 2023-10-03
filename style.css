@@ -8,6 +8,44 @@
 	color: black;
 }
 
+#chat{
+	font-size: 70pt;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+	background-color: grey;
+	background-image: url(family.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#gamu{
+	font-family: cursive;
+	font-size: 70pt;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+	background-color: grey;
+	background-image: url(game.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#load{
+	 display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+}
 
 #title{
 	color: red;
@@ -34,9 +72,9 @@
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   font-size: 60px;
-  margin: 30px 400px;
   cursor: pointer;
 
 
@@ -73,6 +111,7 @@
  	margin-top: 20px;
  	margin-left: 15%;
  	font-size: 25px;
+ 	font-family: monospace;
 
 }
 
@@ -85,24 +124,25 @@
  	margin-top: 20px;
  	margin-left: 60%;
  	font-size: 25px;
+ 	font-family: cursive;
 
 }
 
 #b2{
-
+	  display: flex;
+  align-items: center;
 	background-color: yellow;
 	  border: none;
   		color: Black;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 60px;
-  margin: 30px 400px;
   cursor: pointer;
+  justify-content: center;
 
 
 }
+
 
 #body3{
 	background-color: hotpink;
@@ -110,18 +150,93 @@
 	font-family: fantasy;
 }
 
+
+#i1{
+	display: flex;
+	justify-content: center;
+	background-color: grey;
+	font-size: 20pt;
+	font-family: monospace;
+	padding: 15px;
+	margin: 0px;
+	border-color: black;
+	text-align: center;
+
+
+
+}
+
+#i2{
+	display: inline-block;
+	justify-content: center;
+	background-color: whitesmoke;
+	font-size: 17pt;
+	font-family: monospace;
+	border-color: black;
+	text-align: center;
+
+
+	
+}
+
+#i3{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: lightgreen;
+	font-size: 14pt;
+	font-family: monospace;
+	padding: 40px;
+	margin: 20px;
+	border-color: black;
+	text-align: center;
+
+	
+}
+#i31{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: lightcoral;
+	font-size: 14pt;
+	font-family: monospace;
+	padding: 40px;
+	margin: 20px;
+	border-color: black;
+	text-align: center;
+
+	
+}
+#i32{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: lightblue;
+	font-size: 14pt;
+	font-family: monospace;
+	padding: 40px;
+	margin: 20px;
+	border-color: black;
+	text-align: center;
+
+	
+}
+
+#pcs{
+	display: flex;
+	background-color: yellow;
+	justify-content: space-evenly;
+		text-align: right;
+		font-family: fantasy;
+		font-size: 15pt;
+}
+
+
 #undertale{
-	width: 300px;
-	margin-left: 5%;
+
 }
 
 #starsong{
-	width: 300px;
-	margin-left: 75%;
+
 }
 
 #outerwild{
-	width: 300px;
-	margin-left: 5%;
 
 } 
